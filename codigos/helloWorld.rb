@@ -1,5 +1,5 @@
-puts "Hello World"
-# isso é uma comentário
+puts "Hello World" #puts imprime
+
 array = ['position_0', 'position_1', 'position_2']
 puts array[0]
 
