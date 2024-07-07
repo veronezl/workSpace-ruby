@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "name": "workspace-ruby",
+      "path": "."
+    },
+    {
+      "name": "codigos",
+      "path": "codigos"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "codigos": true
+    }
+  }
+}
