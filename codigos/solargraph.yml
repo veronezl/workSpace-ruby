@@ -1,0 +1,9 @@
+---
+include:
+  - "**/*.rb"
+exclude:
+  - "vendor"
+config:
+  completion: true
+  hover: true
+  symbols: true
