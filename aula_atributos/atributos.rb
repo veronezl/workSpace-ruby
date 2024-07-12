@@ -1,5 +1,5 @@
 class Dog
-  attr_accessor :name, :age
+  attr_accessor :name, :age # Atributos
 end
 
 dog = Dog.new
