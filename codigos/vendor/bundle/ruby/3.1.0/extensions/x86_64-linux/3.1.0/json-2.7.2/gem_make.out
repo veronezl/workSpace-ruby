@@ -1,0 +1,13 @@
+current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+/usr/bin/ruby3.1 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20240716-43599-ntr3bz.rb extconf.rb
+creating Makefile
+
+current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+make DESTDIR\= clean
+
+current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+make DESTDIR\=
+make: Nada a ser feito para 'all'.
+
+current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+make DESTDIR\= install

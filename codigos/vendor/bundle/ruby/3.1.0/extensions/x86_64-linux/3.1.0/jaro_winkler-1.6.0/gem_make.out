@@ -1,0 +1,18 @@
+current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/jaro_winkler-1.6.0/ext/jaro_winkler
+/usr/bin/ruby3.1 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20240716-43599-5bs2uf.rb extconf.rb
+creating Makefile
+
+current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/jaro_winkler-1.6.0/ext/jaro_winkler
+make DESTDIR\= clean
+
+current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/jaro_winkler-1.6.0/ext/jaro_winkler
+make DESTDIR\=
+compiling adj_matrix.c
+compiling codepoints.c
+compiling jaro.c
+compiling jaro_winkler.c
+linking shared-object jaro_winkler/jaro_winkler_ext.so
+
+current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/jaro_winkler-1.6.0/ext/jaro_winkler
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 jaro_winkler_ext.so ./.gem.20240716-43599-xasxiu/jaro_winkler

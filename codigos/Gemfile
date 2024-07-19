@@ -1,3 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'solargraph'
+gem "rspec", "~> 3.10"
+gem "rubocop", "~> 1.0", require: false
+gem "pry", "~> 0.13.1"
+gem 'byebug'
+

@@ -1,0 +1,15 @@
+current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/racc-1.8.0/ext/racc/cparse
+/usr/bin/ruby3.1 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20240716-43599-gr5ng7.rb extconf.rb
+creating Makefile
+
+current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20240716-43599-ai7xd5/racc
