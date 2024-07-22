@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Função simples, sem argumentos
 
 # No ruby é opcional abrir e fechar parenteses.
@@ -30,8 +32,9 @@ funcao_com_valor_padrao
 
 # Função com x(um, dois ou vários) parametros
 
-def funcao_com_x_parametros(*parametros) # * asteristico representa multiplos parametros
-  puts 'Função com multiplos parametros - ' + parametros.inspect
+# * asteristico representa multiplos parametros
+def funcao_com_x_parametros(*parametros)
+  puts "Função com multiplos parametros - #{parametros.inspect}"
 end
 
 funcao_com_x_parametros
@@ -40,11 +43,11 @@ funcao_com_x_parametros('1', 2.5, 4)
 
 # Função com return
 
-def soma(a, b)
+def soma(a, b) # rubocop:disable Naming/MethodParameterName
   a + b # return opcional
 end
 
-def soma_sem_return(a, b)
+def soma_sem_return(a, b) # rubocop:disable Naming/MethodParameterName
   a + b # return opcional
 end
 
