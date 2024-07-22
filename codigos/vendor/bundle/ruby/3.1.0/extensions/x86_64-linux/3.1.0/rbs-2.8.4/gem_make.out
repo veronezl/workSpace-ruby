@@ -1,5 +1,5 @@
 current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/rbs-2.8.4/ext/rbs_extension
-/usr/bin/ruby3.1 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20240716-43599-i3hcxo.rb extconf.rb
+/home/lucas/.rbenv/versions/3.1.0/bin/ruby -I /home/lucas/.rbenv/versions/3.1.0/lib/ruby/3.1.0 -r ./siteconf20240722-29817-vbdkef.rb extconf.rb
 checking for whether -std=gnu99 is accepted as CFLAGS... yes
 creating Makefile
 
@@ -21,4 +21,4 @@ linking shared-object rbs_extension.so
 
 current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/rbs-2.8.4/ext/rbs_extension
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 rbs_extension.so ./.gem.20240716-43599-zyd2m7
+/usr/bin/install -c -m 0755 rbs_extension.so ./.gem.20240722-29817-5tz8r0

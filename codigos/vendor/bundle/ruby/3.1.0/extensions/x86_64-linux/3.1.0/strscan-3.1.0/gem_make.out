@@ -1,5 +1,5 @@
 current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
-/usr/bin/ruby3.1 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20240716-43599-jj5ouc.rb extconf.rb
+/home/lucas/.rbenv/versions/3.1.0/bin/ruby -I /home/lucas/.rbenv/versions/3.1.0/lib/ruby/3.1.0 -r ./siteconf20240722-29817-na0p8g.rb extconf.rb
 checking for onig_region_memsize() in ruby.h... yes
 checking for rb_reg_onig_match() in ruby.h... no
 creating Makefile
@@ -14,4 +14,4 @@ linking shared-object strscan.so
 
 current directory: /home/lucas/workspace-ruby/codigos/vendor/bundle/ruby/3.1.0/gems/strscan-3.1.0/ext/strscan
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 strscan.so ./.gem.20240716-43599-4uukvt
+/usr/bin/install -c -m 0755 strscan.so ./.gem.20240722-29817-o4t2xl
