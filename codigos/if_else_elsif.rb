@@ -1,11 +1,11 @@
+# frozen_string_literal: true
+
 # exemplo de if
 
 day = 'Sunday'
 lunch = 'normal'
 
-if day == 'Sunday'
-    lunch = 'special'
-end 
+lunch = 'special' if day == 'Sunday'
 
 puts "Lunch is #{lunch} today"
 
@@ -13,15 +13,15 @@ puts "Lunch is #{lunch} today"
 
 day2 = 'Saturday'
 
-if day2 == 'Sunday'
-    lunch = 'special'
+lunch = if day2 == 'Sunday'
+          'special'
 
-elsif day2 == 'Holiday'
-    lunch = 'later'
+        elsif day2 == 'Holiday'
+          'later'
 
-else
-    lunch = 'normal'
-    
-end
+        else
+          'normal'
+
+        end
 
 puts "Lunch is #{lunch} today"
