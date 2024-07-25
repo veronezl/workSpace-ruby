@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def iniciar_menu # rubocop:disable Metrics/MethodLength
+def iniciar_menu(produtos = []) # rubocop:disable Metrics/MethodLength
   loop do
     puts 'Escolha uma das opções abaixo:'
     puts '1 - Cadastro de produtos'
