@@ -18,7 +18,7 @@ def iniciar_menu(produtos = []) # rubocop:disable Metrics/MethodLength,Metrics/A
     when 2
       listar_de_produtos(produtos)
     when 3
-      mensagem 'Retirada', usar_limpar_tela: false, usar_timer: false, timer: 0
+      retirar_estoque(produtos)
     when 4
       limpar_tela
       exit

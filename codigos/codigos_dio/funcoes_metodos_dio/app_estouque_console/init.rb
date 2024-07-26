@@ -4,6 +4,7 @@ require_relative 'display/menu'
 require_relative 'display/operacoes_de_tela'
 require_relative 'display/core/cadastrar_de_produto'
 require_relative 'display/core/listar_produtos'
+require_relative 'display/core/retirar_estoque'
 
 produtos = [
   {
